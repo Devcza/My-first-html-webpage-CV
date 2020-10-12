@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h1>Contact me</h1>
+    <p>Below there is contact form, please share with me your opinion regarding the code, structure etc.<br>
+    I would be really glad for it</p>
+    <form action="mailto:jandevera1@gmail.com" method="post" enctype="text/plain">
+      <label for="yourname">Your Name</label>
+      <input type="text" id="yourname"name="contact-me" placeholder="Your name"><br>
+      <label for="yourmail">Your E-mail</label>
+      <input type="email" id="yourmail" name="contact-me" placeholder="Your E-mail"><br>
+      <textarea name="contact-me" rows="10" cols="50" placeholder="Let me know your opinion. Max 240 characters." maxlength="160"></textarea>
+      <p>If you do not mind, please share also company name and your date of birth. Otherwise feel free to skip.</p>
+      <label for="company-name">Company name</label>
+      <input type="text" id="company-name" name="contact-me" placeholder="Company name">
+      <label for="your-birth">Your date of birth</label>
+      <input type="date" id="your-birth"name="contact-me" value=""><br>
+      <input type="submit" name="contact-me" value="Submit">
+    </form>
+  </body>
+</html>
